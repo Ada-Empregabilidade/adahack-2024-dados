@@ -1,57 +1,29 @@
-ID,nome,genero,idade,raca,endereco,formacao,estado,tempo_de_casa,departamento,senioridade
-7172,Sandro Fagner Dutra dos Santos da Silva,Masc,16.0,branco,"27845 Matthew Circle
-Johnsonburgh, SD 49057",,AC,7.0,Recursos Humanos,Gerente
-6170,Jack Fiyita,Masc,17.0,branco,"045 Douglas River Suite 779
-Gregoryhaven, NV 10055",,AL,7.0,Compras,Analista Pleno
-47B2,Reginaldo de Mello da Costa Junior,Masc,16.0,branco,"500 Bryan Junction Suite 725
-West Brookemouth, NY 86556",,MG,-3.0,Administrativo,Gerente
-4C3A,Gabriel Nicolau Rangel,Masc,17.0,branco,"1633 Singleton Ferry
-New Elizabeth, NY 74315",,SP,6.0,TI,Gerente
-8957,Eric Victor de Garcia,Masc,16.0,branco,"686 Alvarez Mount
-North Henry, RI 92576",,DF,4.0,Desenvolvimento de Produtos,Analista Senior
-DFE4,Eliane Shoa Trevisan,Fem,15.0,branco,"2610 Ward Mills
-South Travis, NM 43422",,RR,0.0,Vendas,Diretor
-E87A,Bartolomeu Iago de Franca Iusov,Masc,15.0,branco,"4479 Martin Stravenue Suite 401
-New Heatherberg, MO 66846",,AC,9.0,Contabilidade,Analista Junior
-2CA0,Walter Cleberson Gomes de Machado,Masc,16.0,branco,"80126 Elizabeth Knolls Suite 215
-North Lonnie, FM 64113",,RO,2.0,Recursos Humanos,Analista Senior
-F6FE,Raquel dos Santos,Fem,15.0,branco,"0078 Valentine Drives Apt. 924
-Craigbury, IA 02382",,MG,2.0,Vendas,Analista Junior
-D764,Jonathas Vinicius de Oliveira,Masc,16.0,branco,"01857 Jeffrey Via Apt. 491
-New Elizabeth, IA 47647",,SE,0.0,Marketing,Gerente
-281D,Pablo de Souza Dlao da Silva,Masc,15.0,branco,"USNS Burch
-FPO AP 90956",,TO,9.0,TI,Analista Pleno
-024F,Toninho Leandro Uzgazsume Junior,Masc,17.0,branco,"5064 Katherine Spurs Apt. 940
-West Gregview, IN 40880",,AP,8.0,Operacoes,Analista Pleno
-D80A,Luke de Lacerda,Masc,16.0,branco,"6571 Jessica Corner Suite 751
-West Donnatown, NM 44426",,PR,6.0,Marketing,Analista Senior
-C71F,Rodrigo Griswociman Rangel Junior,Masc,17.0,branco,"225 Wilson Fields Suite 961
-Castanedaborough, FM 86509",,SP,4.0,Compras,Gerente
-4FEE,Patrick Victor de Osorio Schmidt,Masc,17.0,branco,"40860 Joshua Junctions Suite 587
-New Miguel, OK 44902",,MG,5.0,Vendas,Gerente
-D5E3,Aureo Felix Ipuvic,Masc,16.0,indigena,"319 Fields Square
-New Manuel, RI 33401",Pos graduacao,CE,1.0,TI,Gerente
-0932,"Marlon A,ngelo da Cunha",Masc,17.0,branco,"16073 Cruz Cliff Apt. 727
-North Katelynport, AS 58146",,MG,2.0,Desenvolvimento de Produtos,Analista Pleno
-7A58,Jorge Shimosa,Masc,17.0,preto,"924 Clarke Common Apt. 098
-East Bryceport, AK 58524",Ensino Superior,AP,2.0,Contabilidade,Analista Junior
-4AF7,Lais Taina Oeman,Fem,14.0,branco,"101 Joe Avenue Suite 537
-Julianchester, AR 15447",,PR,7.0,Compras,Analista Senior
-444E,Leonardo Joel de Souza,Masc,16.0,branco,"411 Lindsey Manor
-North Richard, MI 63382",,AP,10.0,Desenvolvimento de Produtos,Analista Junior
-3A5D,Joao Manoel Biaov de Fraga,Masc,16.0,preto,"4469 Brown Shores Apt. 890
-Smithchester, AL 58191",Ensino Superior,PR,4.0,Compras,Analista Pleno
-2766,Rogerio de Franca,Masc,15.0,branco,"950 Mejia Greens
-Lake Richardchester, UT 50740",,GO,6.0,Contabilidade,Analista Junior
-AE9D,Damiao de Assuncao Junior,Masc,17.0,preto,"4013 Douglas Summit
-Mcleantown, KY 49783",Ensino Superior,MT,10.0,TI,Analista Pleno
-6C23,Anne Eliane Audo de Pimentel,Fem,17.0,branco,"0594 Jones Extension
-Torresland, AS 10493",,PE,4.0,Contabilidade,Analista Senior
-34F8,Adilson Henrique Wolernmian Junior,Masc,16.0,branco,"127 Grant Mission
-Ryanville, KY 55149",,AL,3.0,Compras,Analista Senior
-A591,Isaiane de Junqueira,Fem,16.0,branco,"USCGC Lee
-FPO AP 76599",,AC,5.0,Desenvolvimento de Produtos,Analista Junior
-162E,Cristiano da Silva de Queiroz Werner,Masc,15.0,preto,"893 Betty Ways Apt. 257
-West Ellenton, NY 62191",Ensino Superior,MS,9.0,Recursos Humanos,Analista Junior
-7593,Aurelio Jackson Sudo de Barbosa Vakae,Masc,15.0,branco,"10909 Steven Isle
-Lake Davidchester, MS 99405",,GO,3.0,Marketing,Analista Junior
+ID,genero,idade,raca,formacao,estado,tempo_de_casa,departamento,senioridade
+5DB7,Masc,16.0,branco,,AC,7.0,Recursos Humanos,Gerente
+153D,Masc,17.0,branco,,AL,7.0,Compras,Analista Pleno
+55CD,Masc,16.0,branco,,MG,-3.0,Administrativo,Gerente
+3434,Masc,17.0,branco,,SP,6.0,TI,Gerente
+EDC1,Masc,16.0,branco,,DF,4.0,Desenvolvimento de Produtos,Analista Senior
+FA99,Fem,15.0,branco,,RR,0.0,Vendas,Diretor
+4166,Masc,15.0,branco,,AC,9.0,Contabilidade,Analista Junior
+56A7,Masc,16.0,branco,,RO,2.0,Recursos Humanos,Analista Senior
+4479,Fem,15.0,branco,,MG,2.0,Vendas,Analista Junior
+159B,Masc,16.0,branco,,SE,0.0,Marketing,Gerente
+FC2B,Masc,15.0,branco,,TO,9.0,TI,Analista Pleno
+B18F,Masc,17.0,branco,,AP,8.0,Operacoes,Analista Pleno
+3C83,Masc,16.0,branco,,PR,6.0,Marketing,Analista Senior
+BFB8,Masc,17.0,branco,,SP,4.0,Compras,Gerente
+9B85,Masc,17.0,branco,,MG,5.0,Vendas,Gerente
+3B61,Masc,16.0,indigena,Pos graduacao,CE,1.0,TI,Gerente
+A2A1,Masc,17.0,branco,,MG,2.0,Desenvolvimento de Produtos,Analista Pleno
+1C2C,Masc,17.0,preto,Ensino Superior,AP,2.0,Contabilidade,Analista Junior
+F398,Fem,14.0,branco,,PR,7.0,Compras,Analista Senior
+1681,Masc,16.0,branco,,AP,10.0,Desenvolvimento de Produtos,Analista Junior
+3CE7,Masc,16.0,preto,Ensino Superior,PR,4.0,Compras,Analista Pleno
+EF8C,Masc,15.0,branco,,GO,6.0,Contabilidade,Analista Junior
+2929,Masc,17.0,preto,Ensino Superior,MT,10.0,TI,Analista Pleno
+122A,Fem,17.0,branco,,PE,4.0,Contabilidade,Analista Senior
+9369,Masc,16.0,branco,,AL,3.0,Compras,Analista Senior
+E63E,Fem,16.0,branco,,AC,5.0,Desenvolvimento de Produtos,Analista Junior
+7D4C,Masc,15.0,preto,Ensino Superior,MS,9.0,Recursos Humanos,Analista Junior
+A515,Masc,15.0,branco,,GO,3.0,Marketing,Analista Junior
