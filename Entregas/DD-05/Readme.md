@@ -280,7 +280,8 @@ Visualização do Slide 6 do Pitch
 
 
 # Proposta 
-
+<details>
+<summary>Desenvolvimento</summary>
 <p style="text-align: justify;">Após uma análise detalhada das informações, comparando os dados com referências do IBGE e do State of Data, ficou evidente uma discrepância na composição demográfica da empresa em relação à população em geral. Diante desse cenário, propomos uma abordagem inovadora que não apenas fomenta a inclusão e a diversidade, mas também impulsiona o crescimento e o sucesso organizacional.</p>
 
 ### O que é a nossa proposta?
@@ -325,8 +326,11 @@ Imagem do Formulário de Diversidade
 - Ampliação da diversidade de talentos e habilidades dentro da organização;
 - Aquisição de um serviço de acompanhamento personalizado.
 
+</details>
 
 # Referências
+<details>
+<summary>Desenvolvimento</summary>
 - Dados do IBGE - [Censo demográfico 2022](https://censo2022.ibge.gov.br/panorama/)
 - Dados do State of Data - [Dados de 2023](https://e99c657b-32c7-4c8b-aed5-f9d1d1155ccb.usrfiles.com/ugd/e99c65_5ffb2f84b01a401d8738481f56d570f9.pdf?utm_source=www.datahackers.news&utm_medium=referral&utm_campaign=download-do-relatorio-state-of-data-brazil-2023-o-panorama-do-mercado-brasileiro-de-trabalho-em-dados)
 - Veja 6 passos para promover igualdade racial dentro das empresas - [Exame](https://exame.com/carreira/veja-6-passos-para-promover-igualdade-racial-dentro-das-empresas/)
@@ -336,4 +340,4 @@ Imagem do Formulário de Diversidade
 - Marcadores sociais: o conceito na construção de políticas pública - [Centro de Liderança Pública](https://www.clp.org.br/marcadores-sociais-o-conceito-na-construcao-de-politicas-publicas/#:~:text=Os%20Marcadores%20Sociais%20s%C3%A3o%20definidos,%2C%20etnia%2C%20entre%20muitas%20outras.)
 - Pluraridade nas instituições traz benefícios - [CNN Brasil](https://www.cnnbrasil.com.br/economia/pluralidade-nas-instituicoes-traz-beneficios/)
 - A gente promove a igualdade racial em todos os espaços possíveis - [Instituto Entidades do Brasil ](https://www.simaigualdaderacial.com.br/)
-
+</details>
