@@ -1,4 +1,4 @@
-[![Ada Hack!](readme\AdaHack.png)](https://github.com/Ada-Empregabilidade/adahack-2024-dados/tree/main/Entregas/DD-08)
+[![Ada Hack!](readme/AdaHack.png)](https://github.com/Ada-Empregabilidade/adahack-2024-dados/tree/main/Entregas/DD-08)
 
 <h1 align="center">InclusiData Alchemy</h1>
 <h3 align="center">Diversidade e Inclusão: Soluções para um Ambiente de Trabalho Equitativo</h3>
@@ -38,9 +38,9 @@ Para organização, utilizamos algumas ferramentas:
 
 #### Entre essas ferramentas, vale destacar o Roteiro criado no Documentos Google, disponível [aqui](https://docs.google.com/document/d/1FiSdodF9yHHHeaZOQbZjmg-30HWEZoJMiIvCgcnEMPA/edit?usp=sharing), e o Monday, disponível abaixo.
 
-![Monday1](readme\Monday1.png)
-![Monday1](readme\Monday2.png)
-![Monday1](readme\Monday3.png)
+![Monday1](readme/Monday1.png)
+![Monday1](readme/Monday2.png)
+![Monday1](readme/Monday3.png)
 
 ---
 
@@ -63,39 +63,39 @@ Os principais indicadores de diversidade dividem-se em 4 pilares: gênero, etnia
 
 ## • Gênero:
 
-![distribuição_demográfica_por_gênero](graficos\distribuição_demográfica_por_gênero.png)![distribuição_de_colaboradores_por_etnia_e_gênero](graficos\distribuição_de_colaboradores_por_etnia_e_gênero.png)
+![distribuição_demográfica_por_gênero](graficos/distribuição_demográfica_por_gênero.png)![distribuição_de_colaboradores_por_etnia_e_gênero](graficos/distribuição_de_colaboradores_por_etnia_e_gênero.png)
 > Baixa quantidade de mulheres diversas na empresa.
 
-![distribuição_por_gênero_entre_diretores](graficos\distribuição_por_gênero_entre_diretores.png)
+![distribuição_por_gênero_entre_diretores](graficos/distribuição_por_gênero_entre_diretores.png)
 > Baixa representação de mulheres nos cargos de liderança.
 
 
 ## • Etnia:
 
-![colaboradores_por_etnia](graficos\colaboradores_por_etnia.png)
+![colaboradores_por_etnia](graficos/colaboradores_por_etnia.png)
 > Pouca contratação de grupos étnicos minoritários (pessoas pretas, indígenas e amarelas).
 
 > Observamos que de acordo com o censo do IBGE de 2022  a população do Brasil é composta por 43,72% de pessoas brancas, 10,23% pretas, 45,62% pardas, 0,42% amarelas e 0,61% indígenas.
 
 
-![distribuição_de_colaboradores_por_etnia_(gerente)](graficos\distribuição_de_colaboradores_por_etnia_(gerente).png)![distribuição_de_colaboradores_por_etnia_(diretor)](graficos\distribuição_de_colaboradores_por_etnia_(diretor).png)
+![distribuição_de_colaboradores_por_etnia_(gerente)](graficos/distribuição_de_colaboradores_por_etnia_(gerente).png)![distribuição_de_colaboradores_por_etnia_(diretor)](graficos/distribuição_de_colaboradores_por_etnia_(diretor).png)
 > Baixa concentração de grupos étnicos minoritários em cargos de liderança
 
 
 ## • Escolaridade:
-![número_de_colaboradores_por_senioridade_e_formação](graficos\número_de_colaboradores_por_senioridade_e_formação.png)
+![número_de_colaboradores_por_senioridade_e_formação](graficos/número_de_colaboradores_por_senioridade_e_formação.png)
 > Graduação é um pré-requisito comum de contratação.
 
-![relação_entre_etnia_e_formação](graficos\relação_entre_etnia_e_formação.png)
+![relação_entre_etnia_e_formação](graficos/relação_entre_etnia_e_formação.png)
 > A maioria dos funcionários com perfil étnico-racial minoritário possuem formação superior.
 
 
 ## • Idade:
 
-![distribuição_de_idade](graficos\distribuição_de_idade.png)
+![distribuição_de_idade](graficos/distribuição_de_idade.png)
 > As contratações se concentram em pessoas mais jovens.
 
-![visualização_dos_clusters_com_valores_reais](graficos\visualização_dos_clusters_com_valores_reais.png)
+![visualização_dos_clusters_com_valores_reais](graficos/visualização_dos_clusters_com_valores_reais.png)
 > A taxa de retenção é baixa, por volta de 5 anos.
 
 ---
@@ -116,12 +116,12 @@ Nesse momento, encontra-se a necessidade da inclusão de mais perfis de grupos s
 
 Atualmente, a empresa trabalha com poucos dados de diversidade, apenas etnia e gênero, sendo o último apenas binário, sem abranger os demais.
 
-![distribuição_de_gênero_por_departamento](graficos\distribuição_de_gênero_por_departamento.png)
+![distribuição_de_gênero_por_departamento](graficos/distribuição_de_gênero_por_departamento.png)
 > Distribuição de gênero por departamento demonstra pouca presença feminina.
 
 Em relação ao cuidado com os dados sensíveis (ex.: nome, idade, cargo), ficou evidente que a empresa não possui uma solução. Para trabalharmos os dados com segurança, incluímos uma coluna de ID hexadecimais de quatro dígitos e removemos a coluna de nomes e endereços.
 
-![tabela_ids](graficos\tabela_ids.jpg)
+![tabela_ids](graficos/tabela_ids.jpg)
 > Tabela contendo ID no lugar do nome.
 
 ---
@@ -175,7 +175,7 @@ Implementar formulários mais abrangentes para coleta de dados demográficos, in
 
 A InclusiData Alchemy fez uma proposta de [formulário](https://forms.gle/TmiCJoefwcU6oXEG8) visando mapear mais características de diversidade.
 
-![FormularioDiversidade](graficos\FormularioDiversidade.png)
+![FormularioDiversidade](graficos/FormularioDiversidade.png)
 > Exemplo de formulário com perguntas aprimoradas.
 
 ## • Melhoria na Visualização de Dados
