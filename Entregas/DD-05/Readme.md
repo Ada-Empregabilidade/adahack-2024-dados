@@ -46,7 +46,7 @@ Imagem da plataforma Trello
 
 </details>
 
-## **Análise Exploratória** 
+## [Análise Exploratória](https://github.com/mxthunder123/adahack-2024-dados/tree/main/Entregas/DD-05/EDA_ENTREGA_FINAL) 
 <p style="text-align: justify;">Para melhor entendimento dos padrões e tendências relacionados à diversidade dentro da Corp Solutions foi feita a análise exploratória do banco de dados da empresa.</p> 
 <details>
 <summary>Desenvolvimento</summary>
@@ -199,48 +199,100 @@ Gráfico de comparação da base de dados da Corp Solutions com outras Bases de 
 
 </details>
 
-**OBS:** Vários colaboradores contribuíram para a versão final deste projeto por meio de arquivos colaborativos individuais, que foram posteriormente integrados para criar uma narrativa coesa e abrangente.
 
-## **Power BI**
+**OBS:** Vários colaboradores contribuíram para a versão final deste projeto por meio de arquivos colaborativos individuais, que foram posteriormente integrados para criar uma narrativa coesa e abrangente. Versões anteriores podem ser encontrados na pasta [EDA-Notebooks-Teste](https://github.com/mxthunder123/adahack-2024-dados/tree/main/Entregas/DD-05/EDA-Notebooks-Teste)
+
+## [Power BI]( https://app.powerbi.com/view?r=eyJrIjoiMDc3MTNlNjMtYTAwMi00MzQzLWFmNWMtYjI1OGI4MThhMTkwIiwidCI6IjMzMWI2YTljLWJiNWYtNDk0Ni1hN2U3LWE5ZmQ5ZDUzNmVhNiJ9)
 <p style="text-align: justify;">O Power BI foi utilizado para criar visualizações dinâmicas e interativas que destacam os dados relacionados à diversidade e à inclusão presentes na base de dados da Corp Solutions.</p>
 
 <details>
 <summary>Desenvolvimento</summary>
-<p style="text-align: justify;"> </p>
+<p style="text-align: justify;">O dashboard elaborado no Power BI é o resultado de uma análise detalhada dos dados da empresa Corp Solutions.A inclusão de variáveis interativas torna a exploração dos dados mais dinâmica e possibilita a identificação de tendências e insights significativos. Para isso, foram utilizados diferentes gráficos  para visualizar informações cruciais sobre o grupo de funcionários da empresa, como gênero, raça, senioridade e outras variáveis importantes.
 
+Visualização da aba Análise Geral
 
+![Dashboard_01]()
+
+Além disso, incorporou funções DAX para calcular parâmetros essenciais, como a porcentagem de colaboradoras mulheres, que é fundamental para monitorar nossa diversidade de gênero ao longo do tempo.</p>
+
+*Função porcentagem de colaboradoras mulheres*
+```
+%_colaboradores_mulheres = 
+    VAR v_mulheres = 
+        CALCULATE(
+            [qtd_colaboradores],
+            d_colaboradores[id_genero] = 2
+        )
+    RETURN DIVIDE (v_mulheres, [qtd_colaboradores])
+```
+
+<p style="text-align: justify;">A função v_mulheres  calcula a quantidade de colaboradores que são mulheres e retorna a  porcentagem de colaboradores mulheres, posteriormente esse valor é dividido pela quantidade total de colaboradores (qtd_colaboradores). Se o resultado for, por exemplo, 0.5, isso significa que 50% dos colaboradores são mulheres.</p>
+<p style="text-align: justify;">Uma característica destacada do projeto é a aba de resultados, que compara a composição demográfica de nossa empresa com a da população em geral. Essa calculadora fornece uma avaliação precisa do progresso da empresa em direção à diversidade e ajuda a analisar a possível perda de produtividade devido a discrepâncias na diversidade.</p>
+
+Visualização da aba Resultados
+
+![Dashboard_02]()
+
+<p style="text-align: justify;">Para a implementação da calculadora, desenvolveu uma função específica, 'perda_produtividade', que calcula a perda de produtividade com base na dissimilaridade entre a composição demográfica da empresa e a da população. Essa função multiplica a dissimilaridade por 0.04 e depois divide por 0.1, obtendo assim uma porcentagem de perda de produtividade, permitindo uma compreensão clara do impacto potencial dessas discrepâncias.</p> 
+
+*Função perda de produtividade*
+```
+perda_produtividade = ([dissimilaridade] * 0.04 / 0.1) / 100
+```
+
+<p style="text-align: justify;">Essas análises e ferramentas são essenciais para orientar nossas estratégias de diversidade e inclusão e promover um ambiente de trabalho mais equitativo e produtivo.</p>
 
 </details>
 
 
-## **Pitch**
+## [Pitch](https://www.canva.com/design/DAGCi9LVEn4/KSabJBxxAo1KJyw8JCuXXQ/edit?utm_content=DAGCi9LVEn4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 <p style="text-align: justify;">O pitch foi desenvolvido para apresentar os pontos mais importantes durante as análises e destacar a importância da diversidade e inclusão para o sucesso da organização.</p> 
 <details>
 <summary>Desenvolvimento</summary>
-<p style="text-align: justify;">O pitch foi elaborado para transmitir o desafio enfrentado pela Corp Solutions e a proposta para aprimorar a inclusão e a diversidade dentro da organização. Para isso, utilizou-se o Canva como nossa ferramenta principal para criar uma apresentação atraente e interativa.</p>
-<p style="text-align: justify;">A apresentação começa com uma contextualização do problema em questão e destacando sua importância. Em seguida, é apresentada uma visão geral da base de dados da Corp Solutions e identificado os principais problemas existentes. E logo após é apresentado a proposta para enfrentar esses desafios de maneira eficaz.</p>
-<p style="text-align: justify;">Por fim, são apresentados links importantes para informações adicionais e recursos relevantes para complementar a proposta.</p>
 
-Imagem do Pitch
+<p style="text-align: justify;">O pitch foi elaborado para transmitir o desafio enfrentado pela Corp Solutions e a proposta para aprimorar a inclusão e a diversidade dentro da organização. Para isso, utilizou-se o Canva como nossa ferramenta principal para criar uma apresentação atraente e interativa.</p> 
 
-![Pitch](https://github.com/mxthunder123/adahack-2024-dados/blob/main/Entregas/DD-05/Imagem/Pitch.jpeg)
+<p style="text-align: justify;">A apresentação começa introduzindo a proposta do projeto DIVERSI.DATA, fundamentado em três pilares. Primeiramente, abordamos a captação de dados, onde desenvolvemos um formulário para facilitar a coleta e a estruturação da base de dados. Em seguida, destaca-se o  serviço de diagnóstico para identificar discrepâncias e fornecer visibilidade do impacto por meio de dashboards. A terceira etapa consiste na consultoria, que ajuda a traçar um plano de ações para promover a equidade na empresa.</p> 
+
+Visualização do Slide 3 do Pitch
+![Slide_3]()
+
+<p style="text-align: justify;">Em seguida, a proposta é aplicada na base de dados da Corp Solutions, diagnosticando um desequilíbrio significativo no recorte de gênero, uma baixa representatividade de profissionais com mais de 50 anos e um equilíbrio racial entre brancos e grupos minoritários, sendo esses últimos representando 55% da composição.</p>
+
+Visualização do Slide 4 do Pitch
+![Slide_4]()
+
+<p style="text-align: justify;">Posteriormente é feita a comparação  da realidade da empresa com a distribuição da sociedade segundo dados do IBGE, identificando disparidades significativas, principalmente em termos de gênero e idade. Desenvolvemos índices de diversidade com base nos dados da empresa e do IBGE, identificando fatores de dissimilaridade que nos permitiram estimar o potencial de aumento da produtividade caso a empresa alcance a mesma distribuição da sociedade brasileira.</p>
+
+Visualização do Slide 5 do Pitch
+![Slide_5]()
+
+<p style="text-align: justify;">No final do pitch, com base nos dados coletados, a consultoria mapeará ações relevantes para aumentar a diversidade, incluindo a implementação de vagas afirmativas, programas de letramento, grupos de afinidade, comitê de diversidade, formação de novos profissionais e capacitação de novas lideranças.</p> 
+
+Visualização do Slide 6 do Pitch
+![Slide_6]()
+
+<p style="text-align: justify;">Por fim, essas ações visam promover um ambiente de trabalho mais inclusivo e equitativo, impulsionando o sucesso e a sustentabilidade da Corp Solutions no longo prazo.</p>
+
 
 </details>
 
 
 # Proposta 
 
-Após uma análise detalhada das informações, comparando os dados com referências do IBGE e do State of Data, ficou evidente uma discrepância na composição demográfica da empresa em relação à população em geral. Diante desse cenário, propomos uma abordagem inovadora que não apenas fomenta a inclusão e a diversidade, mas também impulsiona o crescimento e o sucesso organizacional.
+<p style="text-align: justify;">Após uma análise detalhada das informações, comparando os dados com referências do IBGE e do State of Data, ficou evidente uma discrepância na composição demográfica da empresa em relação à população em geral. Diante desse cenário, propomos uma abordagem inovadora que não apenas fomenta a inclusão e a diversidade, mas também impulsiona o crescimento e o sucesso organizacional.</p>
+
 ### O que é a nossa proposta?
-Nossa proposta consiste em implementar um processo eficaz e sólido para a coleta e tratamento de dados diversos sobre os diferentes grupos dentro das empresas. Realizaremos um diagnóstico detalhado do nível de diversidade de cada estabelecimento e ofereceremos consultorias personalizadas de acordo com as necessidades de cada ambiente de trabalho, além de um acompanhamento contínuo duradouro.
 
-Para executar esse ciclo, contamos com uma equipe especializada que se encarregará desde a coleta e tratamento dos dados até a implementação de planos de desenvolvimento personalizados, adaptados à realidade identitária de cada empresa. Além disso, desenvolvemos um dashboard eficiente o qual funcionará como uma calculadora de diversidade, que será nossa principal ferramenta para receber e analisar os dados de cada local, fornecendo métricas e índices para avaliar o nível de diversidade da empresa e como isso pode impactar positivamente na produtividade laboratórial.
+<p style="text-align: justify;">Nossa proposta consiste em implementar um processo eficaz e sólido para a coleta e tratamento de dados diversos sobre os diferentes grupos dentro das empresas. Realizaremos um diagnóstico detalhado do nível de diversidade de cada estabelecimento e ofereceremos consultorias personalizadas de acordo com as necessidades de cada ambiente de trabalho, além de um acompanhamento contínuo duradouro.</p>
 
-Com essa abordagem abrangente e focada em resultados, estamos preparados para ajudar as empresas a promover um ambiente mais inclusivo e diversificado, o que não apenas fortalece a cultura organizacional, mas também impulsiona o sucesso a longo prazo.
+<p style="text-align: justify;">Para executar esse ciclo, contamos com uma equipe especializada que se encarregará desde a coleta e tratamento dos dados até a implementação de planos de desenvolvimento personalizados, adaptados à realidade identitária de cada empresa. Além disso, desenvolvemos um dashboard eficiente o qual funcionará como uma calculadora de diversidade, que será nossa principal ferramenta para receber e analisar os dados de cada local, fornecendo métricas e índices para avaliar o nível de diversidade da empresa e como isso pode impactar positivamente na produtividade laboratórial.</p>
+
+<p style="text-align: justify;">Com essa abordagem abrangente e focada em resultados, estamos preparados para ajudar as empresas a promover um ambiente mais inclusivo e diversificado, o que não apenas fortalece a cultura organizacional, mas também impulsiona o sucesso a longo prazo.</p>
 
 ### Por que optar por nossa proposta?
 
-O diferencial de nossa abordagem reside na implementação de toda uma arquitetura de dados, incorporação de uma Calculadora de Diversidade,a implementação de um formulário para coleta e administração de dados e na realização de consultorias personalizadas,criando, assim, um ciclo eficiente , cujas fases citadas anteriormente estão descritas abaixo:
+<p style="text-align: justify;">O diferencial de nossa abordagem reside na implementação de toda uma arquitetura de dados, incorporação de uma Calculadora de Diversidade,a implementação de um formulário para coleta e administração de dados e na realização de consultorias personalizadas,criando, assim, um ciclo eficiente , cujas fases citadas anteriormente estão descritas abaixo:</p>
 
 📌**Coleta de dados**: Nessa fase será utilizada um formulário desenvolvido pela nossa equipe, o qual será divulgado na empresa com o intuito de coletar as informações relacionadas com as caracteristicas de diversidade de cada funcionário. Assim, temos de maneira eficiente e rápida dados relacionados com as caracteristicas de raça, genero e faixa etária de cada colaborador da empresa. Vale destacar que todos as informações serão armazenados com muito cuidado pela nossa equipe seguindo todas as diretrizes da LGPD(Lei Geral de Proteção aos Dados). Ademais, o formulário poderá ser usado para manutenção e atualização dos dados a longo prazo.
 
@@ -270,7 +322,7 @@ Imagem do Formulário de Diversidade
 - Maior capacidade de atrair profissionais com habilidades e competências diversas;
 - Melhoria do bem-estar geral dos colaboradores;
 - Ampliação da diversidade de talentos e habilidades dentro da organização;
-- Aquisição de um serviço de acompanhamento personalizado;
+- Aquisição de um serviço de acompanhamento personalizado.
 
 
 # Referências
@@ -283,3 +335,4 @@ Imagem do Formulário de Diversidade
 - Marcadores sociais: o conceito na construção de políticas pública - [Centro de Liderança Pública](https://www.clp.org.br/marcadores-sociais-o-conceito-na-construcao-de-politicas-publicas/#:~:text=Os%20Marcadores%20Sociais%20s%C3%A3o%20definidos,%2C%20etnia%2C%20entre%20muitas%20outras.)
 - Pluraridade nas instituições traz benefícios - [CNN Brasil](https://www.cnnbrasil.com.br/economia/pluralidade-nas-instituicoes-traz-beneficios/)
 - A gente promove a igualdade racial em todos os espaços possíveis - [Instituto Entidades do Brasil ](https://www.simaigualdaderacial.com.br/)
+
