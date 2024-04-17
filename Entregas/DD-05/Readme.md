@@ -211,7 +211,7 @@ Gráfico de comparação da base de dados da Corp Solutions com outras Bases de 
 
 Visualização da aba Análise Geral
 
-![Dashboard_01]()
+![Dashboard_01](https://github.com/mxthunder123/adahack-2024-dados/blob/main/Entregas/DD-05/Imagem/Dashboard_01.jpeg)
 
 Além disso, incorporou funções DAX para calcular parâmetros essenciais, como a porcentagem de colaboradoras mulheres, que é fundamental para monitorar nossa diversidade de gênero ao longo do tempo.</p>
 
@@ -231,7 +231,7 @@ Além disso, incorporou funções DAX para calcular parâmetros essenciais, como
 
 Visualização da aba Resultados
 
-![Dashboard_02]()
+![Dashboard_02](https://github.com/mxthunder123/adahack-2024-dados/blob/main/Entregas/DD-05/Imagem/Dashboard_resultados.jpeg)
 
 <p style="text-align: justify;">Para a implementação da calculadora, desenvolveu uma função específica, 'perda_produtividade', que calcula a perda de produtividade com base na dissimilaridade entre a composição demográfica da empresa e a da população. Essa função multiplica a dissimilaridade por 0.04 e depois divide por 0.1, obtendo assim uma porcentagem de perda de produtividade, permitindo uma compreensão clara do impacto potencial dessas discrepâncias.</p> 
 
