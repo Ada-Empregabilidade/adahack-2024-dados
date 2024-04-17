@@ -231,14 +231,18 @@ Imagem do Pitch
 # Proposta 
 
 Após uma análise detalhada das informações, comparando os dados com referências do IBGE e do State of Data, ficou evidente uma discrepância na composição demográfica da empresa em relação à população em geral. Diante desse cenário, propomos uma abordagem inovadora que não apenas fomenta a inclusão e a diversidade, mas também impulsiona o crescimento e o sucesso organizacional.
+### O que é a nossa proposta?
+Nossa proposta consiste em implementar um processo eficaz e sólido para a coleta e tratamento de dados diversos sobre os diferentes grupos dentro das empresas. Realizaremos um diagnóstico detalhado do nível de diversidade de cada estabelecimento e ofereceremos consultorias personalizadas de acordo com as necessidades de cada ambiente de trabalho, além de um acompanhamento contínuo duradouro.
+
+Para executar esse ciclo, contamos com uma equipe especializada que se encarregará desde a coleta e tratamento dos dados até a implementação de planos de desenvolvimento personalizados, adaptados à realidade identitária de cada empresa. Além disso, desenvolvemos um dashboard eficiente o qual funcionará como uma calculadora de diversidade, que será nossa principal ferramenta para receber e analisar os dados de cada local, fornecendo métricas e índices para avaliar o nível de diversidade da empresa e como isso pode impactar positivamente na produtividade laboratórial.
+
+Com essa abordagem abrangente e focada em resultados, estamos preparados para ajudar as empresas a promover um ambiente mais inclusivo e diversificado, o que não apenas fortalece a cultura organizacional, mas também impulsiona o sucesso a longo prazo.
 
 ### Por que optar por nossa proposta?
 
-O diferencial de nossa abordagem reside na incorporação de uma Calculadora de Diversidade e na implementação de um formulário mais abrangente sobre diversidade.
+O diferencial de nossa abordagem reside na implementação de toda uma arquitetura de dados, incorporação de uma Calculadora de Diversidade,a implementação de um formulário para coleta e administração de dados e na realização de consultorias personalizadas,criando, assim, um ciclo eficiente , cujas fases citadas anteriormente estão descritas abaixo:
 
-📌**Calculadora de Diversidade**: Introduzimos uma calculadora inovadora que evidencia a diferença entre a composição demográfica da empresa e a da população em geral. Essa ferramenta permitirá uma avaliação precisa do progresso da empresa em direção à diversidade.
-
-📌**Formulário**: Outro ponto distintivo é a introdução de um formulário mais completo sobre diversidade para futuras coletas de dados, incluindo informações como orientação sexual, deficiência, status parental, entre outros dados relevantes. Isso proporcionará uma compreensão mais ampla da diversidade entre os membros da empresa, facilitando a identificação de lacunas e áreas de melhoria.
+📌**Coleta de dados**: Nessa fase será utilizada um formulário desenvolvido pela nossa equipe, o qual será divulgado na empresa com o intuito de coletar as informações relacionadas com as caracteristicas de diversidade de cada funcionário. Assim, temos de maneira eficiente e rápida dados relacionados com as caracteristicas de raça, genero e faixa etária de cada colaborador da empresa. Vale destacar que todos as informações serão armazenados com muito cuidado pela nossa equipe seguindo todas as diretrizes da LGPD(Lei Geral de Proteção aos Dados). Ademais, o formulário poderá ser usado para manutenção e atualização dos dados a longo prazo.
 
 Acesso ao [Formulário](https://docs.google.com/forms/d/e/1FAIpQLSdoglp-c4JXYuu5TiSiKoYRZ_zdE3X7qBJeYQFudg4MWG5fMA/viewform)
 
@@ -246,7 +250,11 @@ Imagem do Formulário de Diversidade
 
 ![Form1](https://github.com/mxthunder123/adahack-2024-dados/blob/main/Entregas/DD-05/Imagem/Form1.jpg)
 
-Após a avaliação da diversidade dentro da empresa contratante, serão implementadas ações afirmativas com o objetivo de reduzir disparidades dentro da equipe. Algumas dessas ações incluem:
+📌**Tratamento e Arquitetura dos dados**: Com os dados coletados, nossa equipe irá realizar todo o tratamento, geração de tabelas, administração de data lake, organização de acessos e manutenção de toda essa infraestrutura.
+
+📌**Calculadora de Diversidade**: Introduzimos um dashboard inovador que evidencia a diferença entre a composição de raça, genero e faixa etária da empresa com a composição implementada por fontes confiaveis, como o IBGE. Essa ferramenta permitirá uma avaliação precisa do progresso da empresa em direção à diversidade, trazendo indices que demonstram o quanto a inclusão presente hoje no local analisado influencia na produtividade.
+
+📌**Serviço de Consultoria**: Após a avaliação da diversidade dentro da empresa contratante,será ofertado um serviço de consultoria personalizado conforme os resultados da análise resultante do dashboard. Assim, serão implementadas ações afirmativas com o objetivo de reduzir disparidades dentro da equipe. Algumas dessas ações incluem:
 
 - **Vagas Afirmativas e Grupos de Afinidade:** As vagas afirmativas garantem igualdade de oportunidades de emprego para todos, enquanto os grupos de afinidade promovem um ambiente de trabalho inclusivo e acolhedor.
 
@@ -262,6 +270,7 @@ Após a avaliação da diversidade dentro da empresa contratante, serão impleme
 - Maior capacidade de atrair profissionais com habilidades e competências diversas;
 - Melhoria do bem-estar geral dos colaboradores;
 - Ampliação da diversidade de talentos e habilidades dentro da organização;
+- Aquisição de um serviço de acompanhamento personalizado;
 
 
 # Referências
