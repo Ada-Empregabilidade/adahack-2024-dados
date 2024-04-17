@@ -10,5 +10,6 @@
 - [Renan de F. Bueno](https://www.linkedin.com/in/renandefraga/)
 
 # Nome do Projeto
-
+- Projeto Diversidade CorpSolutions
 # Proposta 
+- Elaboração de um dashboard para detecção de falhas de diversidade, e sugestão de melhorias baseada na jornada do funcionário.
