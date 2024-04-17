@@ -1,0 +1,8 @@
+numpy
+pandas
+matplotlib
+seaborn
+requests
+ftfy
+scipy
+kmodes
