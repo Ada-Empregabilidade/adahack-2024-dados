@@ -255,22 +255,26 @@ perda_produtividade = ([dissimilaridade] * 0.04 / 0.1) / 100
 <p style="text-align: justify;">A apresentação começa introduzindo a proposta do projeto DIVERSI.DATA, fundamentado em três pilares. Primeiramente, abordamos a captação de dados, onde desenvolvemos um formulário para facilitar a coleta e a estruturação da base de dados. Em seguida, destaca-se o  serviço de diagnóstico para identificar discrepâncias e fornecer visibilidade do impacto por meio de dashboards. A terceira etapa consiste na consultoria, que ajuda a traçar um plano de ações para promover a equidade na empresa.</p> 
 
 Visualização do Slide 3 do Pitch
-![Slide_3]()
+
+![Slide_3](https://github.com/mxthunder123/adahack-2024-dados/blob/main/Entregas/DD-05/Imagem/Slide_3.jpeg)
 
 <p style="text-align: justify;">Em seguida, a proposta é aplicada na base de dados da Corp Solutions, diagnosticando um desequilíbrio significativo no recorte de gênero, uma baixa representatividade de profissionais com mais de 50 anos e um equilíbrio racial entre brancos e grupos minoritários, sendo esses últimos representando 55% da composição.</p>
 
 Visualização do Slide 4 do Pitch
-![Slide_4]()
+
+![Slide_4](https://github.com/mxthunder123/adahack-2024-dados/blob/main/Entregas/DD-05/Imagem/Slide_4.jpeg)
 
 <p style="text-align: justify;">Posteriormente é feita a comparação  da realidade da empresa com a distribuição da sociedade segundo dados do IBGE, identificando disparidades significativas, principalmente em termos de gênero e idade. Desenvolvemos índices de diversidade com base nos dados da empresa e do IBGE, identificando fatores de dissimilaridade que nos permitiram estimar o potencial de aumento da produtividade caso a empresa alcance a mesma distribuição da sociedade brasileira.</p>
 
 Visualização do Slide 5 do Pitch
-![Slide_5]()
+
+![Slide_5](https://github.com/mxthunder123/adahack-2024-dados/blob/main/Entregas/DD-05/Imagem/Slide_5.jpeg)
 
 <p style="text-align: justify;">No final do pitch, com base nos dados coletados, a consultoria mapeará ações relevantes para aumentar a diversidade, incluindo a implementação de vagas afirmativas, programas de letramento, grupos de afinidade, comitê de diversidade, formação de novos profissionais e capacitação de novas lideranças.</p> 
 
 Visualização do Slide 6 do Pitch
-![Slide_6]()
+
+![Slide_6](https://github.com/mxthunder123/adahack-2024-dados/blob/main/Entregas/DD-05/Imagem/Slide_6.jpeg)
 
 <p style="text-align: justify;">Por fim, essas ações visam promover um ambiente de trabalho mais inclusivo e equitativo, impulsionando o sucesso e a sustentabilidade da Corp Solutions no longo prazo.</p>
 
