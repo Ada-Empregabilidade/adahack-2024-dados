@@ -1,0 +1,29 @@
+ID,genero,idade,raca,formacao,estado,tempo_de_casa,departamento,senioridade
+34A9,Masc,16,branco,,AC,7.0,Recursos Humanos,Gerente
+D67C,Masc,17,branco,,AL,7.0,Compras,Analista Pleno
+CBD1,Masc,16,branco,,MG,-3.0,Administrativo,Gerente
+1587,Masc,17,branco,,SP,6.0,TI,Gerente
+90F7,Masc,16,branco,,DF,4.0,Desenvolvimento de Produtos,Analista Senior
+A933,Fem,15,branco,,RR,0.0,Vendas,Diretor
+EF41,Masc,15,branco,,AC,9.0,Contabilidade,Analista Junior
+5812,Masc,16,branco,,RO,2.0,Recursos Humanos,Analista Senior
+D592,Fem,15,branco,,MG,2.0,Vendas,Analista Junior
+0E0B,Masc,16,branco,,SE,0.0,Marketing,Gerente
+158E,Masc,15,branco,,TO,9.0,TI,Analista Pleno
+D770,Masc,17,branco,,AP,8.0,Operacoes,Analista Pleno
+4275,Masc,16,branco,,PR,6.0,Marketing,Analista Senior
+567E,Masc,17,branco,,SP,4.0,Compras,Gerente
+3A7C,Masc,17,branco,,MG,5.0,Vendas,Gerente
+F0BC,Masc,16,indigena,Pos graduacao,CE,1.0,TI,Gerente
+C564,Masc,17,branco,,MG,2.0,Desenvolvimento de Produtos,Analista Pleno
+FA7C,Masc,17,preto,Ensino Superior,AP,2.0,Contabilidade,Analista Junior
+FF4E,Fem,14,branco,,PR,7.0,Compras,Analista Senior
+ADBE,Masc,16,branco,,AP,10.0,Desenvolvimento de Produtos,Analista Junior
+F693,Masc,16,preto,Ensino Superior,PR,4.0,Compras,Analista Pleno
+0012,Masc,15,branco,,GO,6.0,Contabilidade,Analista Junior
+6E01,Masc,17,preto,Ensino Superior,MT,10.0,TI,Analista Pleno
+E405,Fem,17,branco,,PE,4.0,Contabilidade,Analista Senior
+9271,Masc,16,branco,,AL,3.0,Compras,Analista Senior
+B4B0,Fem,16,branco,,AC,5.0,Desenvolvimento de Produtos,Analista Junior
+5EAD,Masc,15,preto,Ensino Superior,MS,9.0,Recursos Humanos,Analista Junior
+70DF,Masc,15,branco,,GO,3.0,Marketing,Analista Junior
