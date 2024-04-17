@@ -14,4 +14,4 @@
 # Proposta 
 - Elaboração de um dashboard para detecção de falhas de diversidade, e sugestão de melhorias baseada na jornada do funcionário.
 
-A página inicial do projeto Diversidade CorpSolutions está localizado em [ReadME](https://github.com/ADA-Hack-Grupo-DD3/main-hackton. Todas as conexões para os repositórios estão presentes nele.)
+A página inicial do projeto Diversidade CorpSolutions está localizado em [ReadME](https://github.com/ADA-Hack-Grupo-DD3/main-hackton]. Todas as conexões para os repositórios estão presentes nele.
