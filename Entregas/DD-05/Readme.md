@@ -183,9 +183,6 @@ id_formacao = {'Ensino Médio': 1,
 'Não informado':6}
 
 ```
-Base de dados após a substituição
-
-![Tabela_power_bi](https://github.com/mxthunder123/adahack-2024-dados/blob/main/Entregas/DD-05/Imagem/base_dados_bi.jpeg)
 
 ### **Comparação da Base de Dados da Corp Solutions com outras Bases de Dados**
 
