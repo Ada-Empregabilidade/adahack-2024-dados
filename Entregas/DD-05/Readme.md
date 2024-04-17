@@ -1,6 +1,6 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) 
 
-![Banner](https://github.com/AdrielyZBoller/adahack-2024-dados/blob/main/Entregas/DD-05/Imagem/Ada_hack.png)
+![Banner](https://github.com/mxthunder123/adahack-2024-dados/blob/main/Entregas/DD-05/Imagem/Ada_hack.png)
 ---
 # Projeto Ada Hack 
 
@@ -28,9 +28,11 @@
 **Professor**:
 - [Flávio Crispin](https://www.linkedin.com/in/flaviocrispin/)
 
-# <span style="color:red">D</span><span style="color:orange">I</span><span style="color:yellow">V</span><span style="color:green">E</span><span style="color:blue">R</span><span style="color:purple">S</span><span style="color:pink">I</span><span style="color:brown">.</span>DATA
+# DIVERSI.DATA
 
-<p style="text-align: justify;">Nosso objetivo inicial foi dividir o projeto em quatro partes principais. Primeiramente, focamos na organização das ideias, atribuição de tarefas e monitoramento do progresso, utilizando o Trello. Em seguida, realizamos uma análise exploratória dos dados utilizando o Colab e a linguagem Python, juntamente com suas bibliotecas. Posteriormente, criamos visualizações através do Power BI. Por fim, realizamos a elaboração do pitch para a apresentação dos dados.</p>
+<p style="text-align: justify;">Nosso objetivo inicial foi dividir o projeto em quatro partes principais. Primeiramente, focamos na organização das ideias, atribuição de tarefas e monitoramento do progresso, utilizando o Trello. Em seguida, realizamos uma análise exploratória dos dados utilizando o Colab e a linguagem Python, juntamente com suas bibliotecas.</p> 
+
+<p style="text-align: justify;">Posteriormente, criamos visualizações através do Power BI. Por fim, realizamos a elaboração do pitch para a apresentação dos dados.</p>
 
 ## **Trello**
 <p style="text-align: justify;">O Trello foi utilizado como uma plataforma para auxiliar na gestão do projeto, permitindo uma organização eficiente das tarefas e uma comunicação clara entre os membros da equipe.</p>
@@ -40,7 +42,7 @@
 
 Imagem da plataforma Trello
 
-![Trello]()
+![Trello](https://github.com/mxthunder123/adahack-2024-dados/blob/main/Entregas/DD-05/Imagem/Trello.jpeg)
 
 </details>
 
@@ -54,7 +56,7 @@ Imagem da plataforma Trello
 
 Imagem geral do banco de dados
 
-![Banco de dados]()
+![Banco de dados](https://github.com/mxthunder123/adahack-2024-dados/blob/main/Entregas/DD-05/Imagem/Banco_de_dados.jpeg)
 
 
 <p style="text-align: justify;">Durante essa análise, observamos que a base de dados continha erros de digitação. Tentamos resolver esse problema utilizando diferentes formatos de codificação, como 'utf-8', 'latin-1' e 'iso-8859-15', porém sem sucesso. Para corrigir esses erros, foi necessário realizar uma correção manual, implementando uma função específica para essa finalidade.</p>
@@ -91,7 +93,7 @@ df = df.applymap(substituir_padroes)
 
 Base de dados corrigida
 
-![Base_corrigida]()
+![Base_corrigida](https://github.com/mxthunder123/adahack-2024-dados/blob/main/Entregas/DD-05/Imagem/Banco_corrigido.jpeg)
 
 ### **Análise Univariável**
 
@@ -102,7 +104,7 @@ Base de dados corrigida
 
 Gráfico de barras quantidade de pessoas por Gênero
 
-![Gênero]()
+![Gênero](https://github.com/mxthunder123/adahack-2024-dados/blob/main/Entregas/DD-05/Imagem/Grafico_genero.jpeg)
 
 <p style="text-align: justify;">Essa disparidade pode ser valiosa para comparações futuras com dados fornecidos pelo IBGE ou outras fontes de dados, permitindo verificar se os padrões observados refletem a realidade da população do país.</p>
 
@@ -111,7 +113,7 @@ Gráfico de barras quantidade de pessoas por Gênero
 
 Gráfico de barras quantidade de pessoas por Raça
 
-![Raça]()
+![Raça](https://github.com/mxthunder123/adahack-2024-dados/blob/main/Entregas/DD-05/Imagem/Grafico_raca.jpeg)
 
 <p style="text-align: justify;">A distribuição da quantidade de pessoas por raça é outra informação que poderemos utilizar para comparações com outras bases de dados, oferecendo insights valiosos e relevantes para a discussão do projeto.<p>
 
@@ -160,13 +162,13 @@ df.loc[mascara, 'tempo_de_casa'] = df["tempo_de_casa"].median()
 
 Relação entre a coluna Raça e Senioridade
 
-![Multivariavel_Raça_Senioridade]()
+![Multivariavel_Raça_Senioridade](https://github.com/mxthunder123/adahack-2024-dados/blob/main/Entregas/DD-05/Imagem/Grafico_raca_senioridade.jpeg)
 
 <p style="text-align: justify;">Outra análise relevante é a relação do gênero e da senioridade. Nessa análise fica evidente que a presença feminina é menor do que 27% em todos os cargos, sendo que no cargo de diretor, o mais elevado, as mulheres representam apenas 14% do quadro de funcionários. Esses números sugerem uma sub-representação significativa das mulheres em cada nível de senioridade dentro da organização. Esta constatação destaca a importância de uma análise mais aprofundada e de possíveis iniciativas para promover a igualdade de gênero, como o desenvolvimento de políticas e a implementação de ações corretivas para diminuir essa disparidade e promover um ambiente de trabalho mais inclusivo e equitativo.</p>
 
 Relação entre a coluna Gênero e Senioridade
 
-![Multivariavel_Gênero_Senioridade]()
+![Multivariavel_Gênero_Senioridade](https://github.com/mxthunder123/adahack-2024-dados/blob/main/Entregas/DD-05/Imagem/Grafico_genero_senioridade.jpeg)
 
 ### **Criação da tabela para uso no Power BI**
 <p style="text-align: justify;">Nessa etapa, foi criado uma tabela essencial para a elaboração do dashboard no Power BI. Essa tabela teve os valores substituídos por IDs para identificar cada categoria. Para a substituição foi utilizado um dicionário, garantindo a consistência e a precisão das informações em ambas as tabelas. Essa abordagem facilitará a integração dos dados coletados com o ambiente de análise no Power BI, permitindo uma visualização eficiente e interativa dos resultados.</p>
@@ -183,7 +185,7 @@ id_formacao = {'Ensino Médio': 1,
 ```
 Base de dados após a substituição
 
-![Tabela_power_bi]()
+![Tabela_power_bi](https://github.com/mxthunder123/adahack-2024-dados/blob/main/Entregas/DD-05/Imagem/base_dados_bi.jpeg)
 
 ### **Comparação da Base de Dados da Corp Solutions com outras Bases de Dados**
 
@@ -193,9 +195,11 @@ Base de dados após a substituição
 
 Gráfico de comparação da base de dados da Corp Solutions com outras Bases de Dados
 
-![Comparacao_Corp_e_outras_bases]()
+![Comparacao_Corp_e_outras_bases](https://github.com/mxthunder123/adahack-2024-dados/blob/main/Entregas/DD-05/Imagem/Grafico_com_Bases_comparativas.jpeg)
 
 </details>
+
+**OBS:** Vários colaboradores contribuíram para a versão final deste projeto por meio de arquivos colaborativos individuais, que foram posteriormente integrados para criar uma narrativa coesa e abrangente.
 
 ## **Power BI**
 <p style="text-align: justify;">O Power BI foi utilizado para criar visualizações dinâmicas e interativas que destacam os dados relacionados à diversidade e à inclusão presentes na base de dados da Corp Solutions.</p>
@@ -219,30 +223,54 @@ Gráfico de comparação da base de dados da Corp Solutions com outras Bases de 
 
 Imagem do Pitch
 
-![Pitch]()
-
+![Pitch](https://github.com/mxthunder123/adahack-2024-dados/blob/main/Entregas/DD-05/Imagem/Pitch.jpeg)
 
 </details>
 
 
 # Proposta 
 
-📌**Calculadora**:
+Após uma análise detalhada das informações, comparando os dados com referências do IBGE e do State of Data, ficou evidente uma discrepância na composição demográfica da empresa em relação à população em geral. Diante desse cenário, propomos uma abordagem inovadora que não apenas fomenta a inclusão e a diversidade, mas também impulsiona o crescimento e o sucesso organizacional.
 
-📌**Formulário de Diversidade**:
+### Por que optar por nossa proposta?
+
+O diferencial de nossa abordagem reside na incorporação de uma Calculadora de Diversidade e na implementação de um formulário mais abrangente sobre diversidade.
+
+📌**Calculadora de Diversidade**: Introduzimos uma calculadora inovadora que evidencia a diferença entre a composição demográfica da empresa e a da população em geral. Essa ferramenta permitirá uma avaliação precisa do progresso da empresa em direção à diversidade.
+
+📌**Formulário**: Outro ponto distintivo é a introdução de um formulário mais completo sobre diversidade para futuras coletas de dados, incluindo informações como orientação sexual, deficiência, status parental, entre outros dados relevantes. Isso proporcionará uma compreensão mais ampla da diversidade entre os membros da empresa, facilitando a identificação de lacunas e áreas de melhoria.
 
 Acesso ao [Formulário](https://docs.google.com/forms/d/e/1FAIpQLSdoglp-c4JXYuu5TiSiKoYRZ_zdE3X7qBJeYQFudg4MWG5fMA/viewform)
-<details>
-<summary>Informações</summary>
-<p style="text-align: justify;"> Com o objetivo de melhorar a base de dados da Corp Solutions em relação à diversidade de sua equipe, foi proposto um formulário com perguntas adicionais sobre o tema. Esse formulário procura obter maiores informações sobre a diversidade entre os membros da empresa, possibilitando a identificação de lacunas e áreas de melhoria.</p>
 
-<p style="text-align: center;"> Imagem do Formulário de Diversidade</p>
+Imagem do Formulário de Diversidade
 
-![Form1](https://github.com/AdrielyZBoller/adahack-2024-dados/blob/main/Entregas/DD-05/Imagem/Form1.jpg)
+![Form1](https://github.com/mxthunder123/adahack-2024-dados/blob/main/Entregas/DD-05/Imagem/Form1.jpg)
 
-</details>
+Após a avaliação da diversidade dentro da empresa contratante, serão implementadas ações afirmativas com o objetivo de reduzir disparidades dentro da equipe. Algumas dessas ações incluem:
+
+- **Vagas Afirmativas e Grupos de Afinidade:** As vagas afirmativas garantem igualdade de oportunidades de emprego para todos, enquanto os grupos de afinidade promovem um ambiente de trabalho inclusivo e acolhedor.
+
+- **Formação de Novos Profissionais:** Investir na formação e capacitação de novos profissionais assegura que todos tenham acesso às mesmas oportunidades de desenvolvimento e crescimento na carreira, além de fornecer orientação e suporte para a progressão profissional.
+
+- **Letramento Racial:** Além de identificar o racismo nas relações sociais e institucionais, é essencial implementar práticas que conscientizem sobre a luta antirracista na sociedade, por meio do reconhecimento de eventos históricos relevantes.
+
+- **Comitê de Diversidade:** A criação de comitês dedicados à diversidade auxilia na promoção de políticas e práticas que impactam igualmente todos os membros das equipes da organização.
+
+### Quais serão os benefícios para a empresa após a implementação da proposta?
+
+- Aumento de 4% na produtividade dos colaboradores a cada 10% de aumento na diversidade étnico-racial;
+- Maior capacidade de atrair profissionais com habilidades e competências diversas;
+- Melhoria do bem-estar geral dos colaboradores;
+- Ampliação da diversidade de talentos e habilidades dentro da organização;
 
 
 # Referências
 - Dados do IBGE - [Censo demográfico 2022](https://censo2022.ibge.gov.br/panorama/)
-- Dados do State of Data - []()
+- Dados do State of Data - [Dados de 2023](https://e99c657b-32c7-4c8b-aed5-f9d1d1155ccb.usrfiles.com/ugd/e99c65_5ffb2f84b01a401d8738481f56d570f9.pdf?utm_source=www.datahackers.news&utm_medium=referral&utm_campaign=download-do-relatorio-state-of-data-brazil-2023-o-panorama-do-mercado-brasileiro-de-trabalho-em-dados)
+- Veja 6 passos para promover igualdade racial dentro das empresas - [Exame](https://exame.com/carreira/veja-6-passos-para-promover-igualdade-racial-dentro-das-empresas/)
+- O que é letramento racial e qual a sua importância? - [Estado de Minas](https://www.em.com.br/diversidade/2024/02/6796399-o-que-e-letramento-racial-e-qual-a-sua-importancia.html)
+- Mulheres na tecnologia: cenário, desafios e nomes que marcaram a história - [CNN Brasil](https://www.cnnbrasil.com.br/tecnologia/mulheres-na-tecnologia/)
+- Números não mentem: diversidade nas empresas aumenta a produtividade - [Exame](https://exame.com/bussola/numeros-nao-mentem-diversidade-nas-empresas-aumenta-a-produtividade/)
+- Marcadores sociais: o conceito na construção de políticas pública - [Centro de Liderança Pública](https://www.clp.org.br/marcadores-sociais-o-conceito-na-construcao-de-politicas-publicas/#:~:text=Os%20Marcadores%20Sociais%20s%C3%A3o%20definidos,%2C%20etnia%2C%20entre%20muitas%20outras.)
+- Pluraridade nas instituições traz benefícios - [CNN Brasil](https://www.cnnbrasil.com.br/economia/pluralidade-nas-instituicoes-traz-beneficios/)
+- A gente promove a igualdade racial em todos os espaços possíveis - [Instituto Entidades do Brasil ](https://www.simaigualdaderacial.com.br/)
